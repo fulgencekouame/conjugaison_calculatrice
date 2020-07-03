@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="calcul.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+
+    <title></title>
+  </head>
+  <body>
+    <div class="forme">
+        <form class="" action="" method="post">
+      <h1>CALCULATOR</h1>
+      <label for="Valeur1" name="Valeur1">Valeur1</label>
+      <input type="text" name="Valeur1" id="Valeur1"><br><br>
+      <label for="Valeur2" name="Valeur2">Valeur2</label>
+      <input type="text" name="Valeur2" id="Valeur2"><br><br>
+      <div class="operateur">
+        <button type="button" name="button" class="btn btn-primary" id="plus" value="+" onclick="ad()">+</button>
+        <button type="button" name="button" class="btn btn-default" id="moin" value="-" onclick="sou()">-</button>
+        <button type="button" name="button" class="btn btn-success" id="fois" value="*" onclick="mul()">*</button>
+        <button type="button" name="button" class="btn btn-warning" id="division" value="/" onclick="divi()">/</button>
+      </div>
+      <div class="calculer">
+        <input type= "text" name = "aff"  id="total" disabled value = ""/>
+
+           <button type= "reset" name = "buttoncal" class="btn btn-danger"  id= "annulation">Annuler</button>
+
+
+     </div>
+   </form> 
+     <!-- <div class="resultat">
+       <input type="text" name="resultat" id="resultat" disabled>
+     </div> -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+<script src="calcul.js"></script>
+
+
+  </body>
+</html>

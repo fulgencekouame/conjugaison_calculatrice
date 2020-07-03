@@ -1,0 +1,25 @@
+body {font-family:Georgia;
+    background:#ccc;
+     text-align: center;
+    }
+#pge {
+    width:600px;
+    height:350px;
+    margin:30px auto;
+    padding:13px;
+    background:#fff
+    
+    
+}
+#rsp {
+    display:block;
+    width:80%;
+    margin:0px auto;
+    font-family:"Courier New"
+}
+p {
+    margin:10px;
+}
+h2{
+    text-decoration: underline;
+}
